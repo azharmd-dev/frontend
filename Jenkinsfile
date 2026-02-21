@@ -2,7 +2,7 @@
 
 def configMap = [
     project: "robomart", 
-    component: "fronte"
+    component: "frontend"
 
 ]
 
