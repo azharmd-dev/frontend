@@ -8,7 +8,7 @@ def configMap = [
 
 if ( !env.BRANCH_NAME.equalsIgnoreCase("main") ) {
     echo "Deploying on non-prod branch"
-    javaEKSpipeline(configMap)
+    nodeJSEKSpipeline(configMap)
 
 } else {
     echo "Kindly follow the CR process"
